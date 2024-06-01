@@ -6,7 +6,6 @@ import { products } from "../data/products";
 import { useShoppingCart } from "../hooks/useShoppingCart";
 
 
-
 export const ShoppingPage = () => {
 
   const { shoppingCart, onProductCountChange } = useShoppingCart();
